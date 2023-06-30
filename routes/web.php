@@ -1,9 +1,15 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Livewire\MostrarEmpleados;
 use App\Http\Controllers\ExportController;
+
+
+//Nombre: Diego Fernando Ochoa
+//DNI: 33743380
+
 
 Route::get('/', HomeController::class)->name('home');
 
